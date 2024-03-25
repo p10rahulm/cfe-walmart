@@ -889,11 +889,112 @@ a:hover {
     font-weight: bold;
 }
 
-.mainer #events-container .event-card .event-link-href {
+.mainer #events-container .event-card .card-link-details-href  {
     text-decoration: underline;
 }
 
 .mainer #events-container .event-card .card-description {
+    color: #015050;
+    padding: 15px 0 0.5em 9px;
+}
+
+
+/*NEWS CARDS*/
+#news-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    row-gap: 10px;
+    column-gap: 50px;
+    margin-top: 15px;
+}
+
+.mainer #news-container .news-card {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 5px 10px 18px #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.mainer #news-container .news-card:hover {
+    /*transition: transform .75s;*/
+    transition: transform .75s;
+    /*transform: translateY(-10px);*/
+    transform: translateY(-5px);
+}
+
+.mainer #news-container .news-card .card-image-holder {
+    flex-basis: 135px;
+    flex-grow: 0;
+    /*text-align: center;*/
+
+    text-align: center;
+    margin-right: 15px;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    /*float: left;*/
+}
+
+.mainer #news-container .news-card .card-image {
+    height: 150px;
+    width: 150px;
+    margin: 25px auto;
+    border-radius: 15%;
+}
+
+.mainer #news-container .news-card .card-content {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    /*font-weight: bold;*/
+    color: #015050;
+    padding: 0 0 0.5em 0.5em;
+    /*margin: 5px auto;*/
+    /*width: 250px;*/
+    /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+}
+
+.mainer #news-container .news-card .card-title {
+    font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    color: rgb(154, 2, 41);
+    font-size: max(16px, 1.25em);
+    font-weight: bold;
+    padding: 25px 10px 10px 10px;
+    border-bottom: 1px solid rgba(0, 26, 250, 0.12);
+    width: inherit;
+
+}
+
+.mainer #news-container .news-card .card-link-details {
+    /*text-decoration-color: #f77e7e;*/
+    /*text-decoration-color: #873307;*/
+    /*font-size: max(14px, 1.25em);*/
+    border-bottom: 1px solid rgba(0, 26, 250, 0.12);
+    font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    color: rgb(75 192 137);
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.mainer #news-container .news-card .card-link-details-href {
+    text-decoration: underline;
+}
+
+.mainer #news-container .news-card .card-description {
     color: #015050;
     padding: 15px 0 0.5em 9px;
 }

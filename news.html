@@ -34,6 +34,7 @@
     <!-- Scripts -->
     <script src="assets/js/ui-elements.js">
     </script>
+    <script src="assets/js/news_parser.js"></script>
 
 
     <!-- For markdown -->
@@ -109,6 +110,8 @@
         <!-- News Container. Will be filled by script -->
         <div id="news-container" class="mainer"></div>
 
+        <div id="load-more" onclick="loadMoreNews()">See More</div>
+
 
 
 
@@ -130,7 +133,10 @@
 </body>
 
 <!--Trailing Scripts-->
-
+<!--Loading the papers on the website-->
+<script>
+    updateNewsContent()
+</script>
 
 
 <!-- Mathjax -->

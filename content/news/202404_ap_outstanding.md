@@ -1,9 +1,9 @@
 +++
 title = "Arpita Patra receives the Prof. S. K. Chatterjee Award for Outstanding Woman Researcher or Industry Leader 2023."
 person = "Arpita Patra"
-author_link = "https://www.csa.iisc.ac.in/~arpita/"
+person_link = "https://www.csa.iisc.ac.in/~arpita/"
 news_link = "https://www.csa.iisc.ac.in/events/congratulations-to-arpita-patra-for-receiving-prof-s-k-chatterjee-award-for-outstanding-woman-researcher-or-industry-leader-2023-prof-s-k-chatterjee-award-instituted-in-the-year-2010-is-award/"
-author_image = "assets/images/news_images/arpita_patra.jpg"
+person_image = "assets/images/news_images/arpita_patra.jpg"
 date = "2023-12-01T16:00:00+05:30"
 notes = ""
 +++
