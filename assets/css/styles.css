@@ -212,7 +212,8 @@ a:hover {
     padding: 25px 0;
     border-bottom: 1px solid rgba(0, 26, 250, 0.12);
     font-weight: bold;
-    color: #006633;
+    /*color: #006633;*/
+    color: #005999;
     margin: 0 auto;
     margin-top: 25px;
 
