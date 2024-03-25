@@ -81,7 +81,7 @@ function createNewsHtml(newsData, fileName, fileNumber) {
                 </div>
                 <div class="card-content">
                     <div class="card-title">
-                        <a class="card-link-href" href="${newsData.news_link}" target="_blank">
+                        <a class="card-link-href" href="${newsData.person_link}" target="_blank">
                             ${newsData.title} 
                         </a>
                     </div>
