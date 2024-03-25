@@ -1,9 +1,9 @@
 +++
 name = "Siddharth Barman"
-affiliation_to_lab = "professor"
-current_role = "Professor, IISc, Bangalore"
-page_link = "https://www.csa.iisc.ac.in/~barman/"
-photo_filename = "siddharthBarman.jpeg"
+person_role = "professor"
+person_designation = "Professor, IISc, Bangalore"
+person_link = "https://www.csa.iisc.ac.in/~barman/"
+person_photofile = "assets/images/people_images/siddharthBarman.jpeg"
 notes = ""
 +++
 

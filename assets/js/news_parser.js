@@ -42,8 +42,8 @@ function createNewsHtml(newsData, fileName, fileNumber) {
 
         if (newsData.notes && newsData.notes.trim() !== '') {
             detailsHtml = `
-                        <div class="paper-details-holder">
-                            <div class="paper-abstract-short" onclick="seeMoreAbstract(this)">
+                        <div class="card-description-holder">
+                            <div class="card-description-short" onclick="seeMoreAbstract(this)">
                                 <b>Details:</b> 
                                 ${newsData.details}
                                 <br><br>
@@ -55,8 +55,8 @@ function createNewsHtml(newsData, fileName, fileNumber) {
         } else {
 
             detailsHtml = `
-                        <div class="paper-details-holder">
-                            <div class="paper-abstract-short" onclick="seeMoreAbstract(this)">
+                        <div class="card-description-holder">
+                            <div class="card-description-short" onclick="seeMoreAbstract(this)">
                                 <b>Details:</b> 
                                 ${newsData.details}                                
                             </div>
