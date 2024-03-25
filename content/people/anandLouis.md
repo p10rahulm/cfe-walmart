@@ -13,5 +13,5 @@ background laid the foundation for his research in theoretical computer science,
 approximation algorithms, and convex optimization.
 He specializes in theoretical computer science, particularly spectral graph theory, approximation
 algorithms, and convex optimization. Dr. Louis's work often explores the interplay between computer science and
-mathematics, contributing significantly to understanding graph structures and algorithms. For more in-depth details on
-his research and publications, please refer to his [DBLP profile](https://dblp.org/pid/72/7588.html).
+mathematics, contributing significantly to understanding graph structures and algorithms. 
+He has advised several PhD students, Masters students, as well as interns during his tenure at IISc.
