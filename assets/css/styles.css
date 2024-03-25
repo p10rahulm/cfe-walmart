@@ -254,14 +254,6 @@ a:hover {
     padding: 10px 5px;
 }
 
-
-.mainer #papers-container-navigation {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .mainer #sponsor-thanks {
     margin-top: 3px;
     padding-bottom: 24px;
@@ -275,6 +267,16 @@ a:hover {
 }
 
 
+/*
+.mainer #papers-container-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
 .mainer #papers-container .home-header {
     margin: 20px 0 10px 0;
 }
@@ -286,9 +288,7 @@ a:hover {
 }
 
 .mainer #papers-container .paper-card:hover {
-    /*transition: transform .75s;*/
     transition: transform .75s;
-    /*transform: translateY(-10px);*/
     transform: translateY(-5px);
 }
 
@@ -313,16 +313,11 @@ a:hover {
 }
 
 .mainer #papers-container .paper-card .paper-image-conference {
-    /*background-color: #00bd43;*/
-    /*background-color: #ff8e02;*/
     background-color: #ffc402;
-    /*background-color: #0aa500;*/
     color: whitesmoke;
 }
 
 .mainer #papers-container .paper-card .paper-image-journal {
-    /*background-color: #5f1b9f;*/
-    /*background-color: #5e02b5;*/
     background-color: #02b594;
     color: whitesmoke;
 }
@@ -338,7 +333,6 @@ a:hover {
     flex-basis: 200px;
     flex-grow: 1;
     flex-shrink: 0;
-    /*float: left;*/
 }
 
 .mainer #papers-container .paper-card .paper-details-holder {
@@ -346,7 +340,6 @@ a:hover {
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 0;
-    /*float: left;*/
 }
 
 .mainer #papers-container .paper-fullpage {
@@ -362,7 +355,6 @@ a:hover {
     flex-grow: 1;
     flex-shrink: 1;
     text-align: center;
-    /*float: left;*/
 }
 
 .mainer #papers-container .paper-fullpage .speaker-image {
@@ -376,7 +368,6 @@ a:hover {
     flex-basis: 200px;
     flex-grow: 1;
     flex-shrink: 0;
-    /*float: left;*/
 }
 
 .mainer #papers-container .paper-fullpage .paper-details-holder {
@@ -384,14 +375,11 @@ a:hover {
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 0;
-    /*float: left;*/
 }
 
 
 .mainer #papers-container .paper-card .paper-title {
     font-weight: bold;
-    /*color: #005999;*/
-    /*color: #545454;*/
     color: #931616;
     line-height: 1.6;
 }
@@ -402,8 +390,6 @@ a:hover {
 
 .mainer #papers-container .paper-card .paper-authors {
     font-weight: bold;
-    /*color: #f77e7e;*/
-    /*color: #244270;*/
     color: #0056b1;
     padding: 0 0 0.5em 0;
     border-bottom: 1px solid rgba(0, 26, 250, 0.12);
@@ -417,9 +403,6 @@ a:hover {
     font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
     padding: 0.5em 0.5em 0 0;
     line-height: 1.6;
-    /*font-style: italic;*/
-    /*color: #4eca91;*/
-    /*color: #402d4f;*/
     color: #05528b;
 }
 
@@ -429,7 +412,6 @@ a:hover {
 
 .mainer #papers-container .paper-card .paper-publication-details {
     font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
-    /*color: #365d7999;*/
     color: #0d7541;
     line-height: 1.6;
     padding-left: 0.5em;
@@ -437,7 +419,6 @@ a:hover {
 
 .mainer #papers-container .paper-card .paper-notes {
     color: #a70101a8;
-    /*color: #4c3d9e9e;*/
 }
 
 
@@ -453,7 +434,6 @@ a:hover {
 }
 
 .mainer #papers-container .paper-card .paper-abstract {
-    /*color:#697285;*/
     color: #5f5f5f;
     margin-top: 0.5em;
     padding-top: 0.5em;
@@ -462,18 +442,15 @@ a:hover {
 
 .mainer #papers-container .paper-card .paper-abstract-seeless {
     text-align: right;
-    /*font-weight: bold;*/
     font-size: x-small;
     color: #c1c1c1;
 }
 
 .mainer #papers-container .paper-card .paper-abstract-seemore {
     text-align: right;
-    /*font-weight: bold;*/
     font-size: x-small;
     color: #c1c1c1;
 }
-
 
 .mainer #Publications .publication-title {
     font-weight: bold;
@@ -489,13 +466,14 @@ a:hover {
 }
 
 .mainer #Publications .publication-authors a {
-    /*color: #ff8888;*/
     color: #f77e7e;
 }
 
 .mainer #Publications .publication-location {
     font-style: italic;
 }
+
+*/
 
 .footer {
     grid-area: footer;
@@ -622,6 +600,7 @@ a:hover {
     row-gap: 10px;
     column-gap: 50px;
     margin-top: 15px;
+    width: 100%;
 }
 
 
@@ -638,6 +617,10 @@ a:hover {
     justify-content: center;
     align-items: center;
     min-height: 150px;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 
@@ -655,6 +638,9 @@ a:hover {
     text-align: center;
     /*float: left;*/
 }
+
+
+
 
 .mainer .person-card .card-image {
     height: 120px;
@@ -690,7 +676,19 @@ a:hover {
     font-size: max(16px, 1.25em);
 }
 
+.mainer .person-card .card-content {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
 
+    /*font-weight: bold;*/
+    color: #015050;
+    padding: 0 0 0.5em 0.5em;
+    /*margin: 5px auto;*/
+    /*width: 250px;*/
+    /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+}
 
 .mainer .person-card .person-link-href {
     /*text-decoration-color: #f77e7e;*/
@@ -710,7 +708,35 @@ a:hover {
     /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
 }
 
+.mainer .person-card .card-description-short {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 1.75em;
+    text-align: left;
+    margin-bottom: 15px;
+}
 
+.mainer .person-card .card-description-extended {
+    text-align: justify;
+}
+
+.mainer .person-card .card-description-seemore {
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+
+}
+
+.mainer .person-card .card-description-seeless {
+    text-align: right;
+    margin: 0 5px 10px 0;
+    font-weight: bold;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+}
 
 #load-more {
     margin: 10px auto;

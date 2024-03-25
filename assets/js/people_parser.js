@@ -56,11 +56,9 @@ function createPersonHtml(inputData, fileName, fileNumber) {
         } else {
 
             detailsHtml = `
-                        <div class="card-description-holder">
-                            <div class="card-description-short" onclick="seeMoreAbstract(this)">
-                                <b>Details:</b> 
+                        <div class="card-description-short" onclick="seeMoreAbstract(this)">
+                                <b>Bio:</b> 
                                 ${inputData.details}                                
-                            </div>
                         </div>
                         `;
         }
@@ -109,9 +107,9 @@ function loadPeopleList(inputList, startIndex) {
             .then(content => parsePeopleContent(content))
             .then(inputData => {
                 const personHtml = createPersonHtml(inputData, fileName, fileNumber);
-                const div_to_set_seemore =  document.getElementById('card_description_${fileNumber}')
-                setAbstractsforDiv(div_to_set_seemore);
                 document.getElementById('pi-container').innerHTML += personHtml;
+                const div_to_set_seemore =  document.getElementById('card_description_'+fileNumber.toString())
+                setAbstractsforDiv(div_to_set_seemore);
             });
     }
 }
@@ -134,18 +132,51 @@ function loadMorePeople() {
 }
 
 function setAbstractsforDiv(abstractdiv) {
-    console.log(abstractdiv.tagName)
-    const abstractDone = abstractdiv.parentElement.getElementsByClassName("pi-container").length;
-    if (isOverflown(abstractdiv) && !abstractDone) {
+    const newdiv = document.createElement("div");
+    newdiv.innerHTML = "...See More<i class=\"arrow down\"></i>";
+    newdiv.className = "card-description-seemore"
+    newdiv.setAttribute("onClick", "seeMoreDescription(this.parentElement.getElementsByClassName('card-description-short')[0])");
+
+    abstractdiv.appendChild(newdiv);
+}
+
+function seeMoreDescription(element) {
+    if (element.classList.contains("card-description-short")) {
+        element.classList.remove("card-description-short");
+        element.classList.add("card-description-extended");
+
+
+        //create a see less token
+        const newdiv = document.createElement("div");
+        newdiv.innerHTML = "...See Less<i class=\"arrow up\"></i>";
+        newdiv.className = "card-description-seeless";
+        newdiv.setAttribute("onClick", "seeLessDescription(this.parentElement.getElementsByClassName('card-description-extended')[0])");
+        // newdiv.onclick = "seeLessAbstract(newdiv)";
+        element.parentElement.appendChild(newdiv);
+
+        seemore = element.parentElement.getElementsByClassName("card-description-seemore")[0];
+        seemore.parentElement.removeChild(seemore);
+
+
+    }
+}
+
+function seeLessDescription(element) {
+    console.log("element",element)
+    if (element.classList.contains("card-description-extended")) {
+        element.classList.remove("card-description-extended");
+        element.classList.add("card-description-short");
+
+
         //create a see less token
         const newdiv = document.createElement("div");
         newdiv.innerHTML = "...See More<i class=\"arrow down\"></i>";
         newdiv.className = "card-description-seemore"
-        newdiv.setAttribute("onClick", "seeMoreAbstract(this.parentElement.getElementsByClassName('card-description-short')[0])");
-        abstractdiv.parentElement.appendChild(newdiv);
-    }
-}
+        newdiv.setAttribute("onClick", "seeMoreDescription(this.parentElement.getElementsByClassName('card-description-short')[0])");
+        element.parentElement.appendChild(newdiv);
 
-function isOverflown(element) {
-    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+        seeless = element.parentElement.getElementsByClassName("card-description-seeless")[0];
+        seeless.parentElement.removeChild(seeless);
+    }
+
 }
