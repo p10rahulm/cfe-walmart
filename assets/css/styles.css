@@ -649,18 +649,18 @@ a:hover {
 }
 
 
-.mainer .person-card .person-image-holder {
+.mainer .person-card .card-image-holder {
     flex-basis: 135px;
     flex-grow: 0;
     text-align: center;
     /*float: left;*/
 }
 
-.mainer .person-card .person-image {
+.mainer .person-card .card-image {
     height: 120px;
     width: 120px;
     margin: 15px auto;
-    border-radius: 10%;
+    border-radius: 25%;
 }
 
 .mainer .person-card .speaker-main-holder {
