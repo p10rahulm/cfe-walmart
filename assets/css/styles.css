@@ -27,6 +27,21 @@ a:hover {
     grid-row-gap: min(4vw, 40px);
     grid-template-areas:
             ". header header header header  ."
+            ". mainer mainer mainer mainer ."
+            ". footer footer footer footer .";
+    justify-items: center;
+    overflow: auto;
+}
+
+.container-with-hero {
+    display: grid;
+    grid-template-rows: minmax(65px, auto) minmax(100px, auto) 65px [footer-end];
+
+    /*grid-template-columns: minmax(2vw,1fr) repeat(4, 1fr) minmax(2vw,1fr);*/
+    grid-template-columns: 2vw repeat(4, 1fr) 2vw;
+    grid-row-gap: min(4vw, 40px);
+    grid-template-areas:
+            ". header header header header  ."
             "heroimdiv heroimdiv heroimdiv heroimdiv heroimdiv heroimdiv"
             ". mainer mainer mainer mainer ."
             ". footer footer footer footer .";
@@ -222,6 +237,8 @@ a:hover {
     font-size: max(12px, 1em);
     font-weight: bold;
     padding: 10px 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .mainer .home-textpara a {
