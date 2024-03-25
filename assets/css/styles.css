@@ -884,7 +884,8 @@ a:hover {
     /*font-size: max(14px, 1.25em);*/
     border-bottom: 1px solid rgba(0, 26, 250, 0.12);
     font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
-    color: rgb(75 192 137);
+    /*color: rgb(75 192 137);*/
+    color: #2c9268;
     padding-left: 10px;
     font-weight: bold;
 }
@@ -985,7 +986,8 @@ a:hover {
     /*font-size: max(14px, 1.25em);*/
     border-bottom: 1px solid rgba(0, 26, 250, 0.12);
     font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
-    color: rgb(75 192 137);
+    /*color: rgb(75 192 137);*/
+    color: #2c9268;
     padding-left: 10px;
     font-weight: bold;
 }
