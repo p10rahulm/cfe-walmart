@@ -2,7 +2,7 @@ import os
 import time
 import re
 
-def write_files_to_files_list(directory = 'content/papers/', output_file_path = 'content/papers/papers_list.txt'):
+def write_files_to_files_list(directory = 'content/news/', output_file_path = 'content/news/news_list.txt'):
     file_paths=[]
     for root, dirs, files in os.walk(directory):
         for name in files:
@@ -39,6 +39,7 @@ def write_files_to_files_list(directory = 'content/papers/', output_file_path = 
 if __name__=="__main__":
     start_time=time.time()
     write_files_to_files_list(directory = 'content/news/', output_file_path = 'content/news/news_list.txt')
+    write_files_to_files_list(directory = 'content/people/', output_file_path = 'content/people/people_list.txt')
 
     print("File list created successfully.")
     print("time taken = %d seconds"%(time.time()-start_time))
