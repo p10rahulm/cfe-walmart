@@ -1,8 +1,3 @@
-function fetchNewsListUnsorted() {
-    return fetch('content/news/news_list.txt')
-        .then(response => response.text())
-        .then(text => text.split('\n').filter(line => line.trim().length > 0));
-}
 
 function fetchNewsList() {
     return fetch('content/news/news_list.txt')
@@ -73,18 +68,24 @@ function createNewsHtml(newsData, fileName, fileNumber) {
 
 
     return `
-            <div class="news-card">
+            <div class="news-card" id="${fileNumber}_${fileName}">
                 <div class="card-image-holder">
                     <a class="card-image-link-href" href="${newsData.person_link}" target="_blank">
                         <img class="card-image" src="${newsData.person_image}" alt="${newsData.person}">
                     </a>
+                    <div class="card-person">
+                        <a class="card-person-href" href="${newsData.person_link}" target="_blank">
+                            ${newsData.person} 
+                        </a>
+                    </div>
                 </div>
                 <div class="card-content">
                     <div class="card-title">
-                        <a class="card-link-href" href="${newsData.person_link}" target="_blank">
+                        <a class="card-link-href" href="${newsData.news_link}" target="_blank">
                             ${newsData.title} 
                         </a>
                     </div>
+                    
                     <div class="card-description">
                         ${detailsHtml}
                     </div>
