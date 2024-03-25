@@ -748,7 +748,7 @@ a:hover {
 
 /* Hero Image */
 .hero-image {
-    background: url('/assets/images/iisc_main_building.jpg') no-repeat center center/cover;
+    background: url('https://www.csa.iisc.ac.in/cfe-walmart/assets/images/iisc_main_building.jpg') no-repeat center center/cover;
     width: 110vw;
     position: relative; /* If you need to position elements inside absolutely */
     height: 100vh;
