@@ -95,73 +95,92 @@
     </div>
 
     <!-- Hero Image with Text Overlay -->
-    <div class="mainer hero-image" id="front-page-hero">
+    <div class="hero-image-div hero-image" id="front-page-hero">
         <div class="hero-text">
             Walmart Center for Tech Excellence <br> at IISc Bangalore
         </div>
     </div>
 
+    <!-- Main Body -->
+    <div class="mainer container-element" id="home-page-about">
+
+        <div class="home-header">About the Center</div>
+        <div class="home-text">
+            <div class="home-textpara">
+                The IISc Bangalore and Walmart Center for Excellence in Computer Science and Automation focuses on advancing research in machine learning and theoretical computer science. Positioned at the forefront of computational innovation, our center is a collaborative venture between the Indian Institute of Science and Walmart, designed to propel the development of cutting-edge algorithms, data structures, and machine learning models.
+            </div>
+            <div class="home-textpara">
+                Combining Walmart's industry expertise with IISc's academic leadership, the center is dedicated to cultivating a rich educational and research-oriented environment. We are committed to fostering the growth of knowledge in key computational areas, thereby contributing to the global advancement of the field.
+            </div>
+            <div class="home-textpara">
+                Through an array of meticulously structured seminars, workshops, and research projects, the center seeks to challenge and nurture the intellectual growth of our students and researchers. Our goal is to enable the pursuit of innovative research questions, pushing the envelope of what is known and expanding the boundaries of the possible.
+            </div>
+            <div class="home-textpara">
+                Central to our mission is the creation of an interactive landscape where theoretical inquiries intersect with real-world applications. By doing so, we aim to not only advance the state of technology but also to make tangible contributions to the state of computer science in India and the world.
+            </div>
+        </div>
 
 
-
-    <!--  Footer  -->
-    <div class="footer container-element">
-        <div id="copyright">
-            © 2024
-            <a href="https://www.iisc.ac.in" target="_blank">
-                Indian Institute of Science, Bangalore
-            </a>
-            .
-            <br/>
-            Website developed and maintained by Rahul Madhavan.
+        <!--  Footer  -->
+        <div class="footer container-element">
+            <div id="copyright">
+                © 2024
+                <a href="https://www.iisc.ac.in" target="_blank">
+                    Indian Institute of Science, Bangalore
+                </a>
+                .
+                <br/>
+                Website developed and maintained by Rahul Madhavan.
+            </div>
         </div>
     </div>
+
 </div>
 </body>
 
 <!--Trailing Scripts-->
-<footer>
 
 
-    <!-- Mathjax -->
-    <script defer="" type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-        });
-   </script>
 
-    <script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript">
-    </script>
-    <script defer="" src="assets/js/enqueue_divs_for_mathjax.js" type="text/x-mathjax-config">
-    </script>
-    <!-- Twitter Feed
-    <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js">
-    </script>-->
-    <!-- Google Fonts -->
-    <script defer="" type="text/javascript">
-        WebFontConfig = {
-            google: {
-                families: ['Lora', 'Roboto Slab', 'Alegreya SC','Vollkorn']
-            }
-        };
+<!-- Mathjax -->
+<script defer="" type="text/x-mathjax-config">
+MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+</script>
 
-        (function (d) {
-            var wf = d.createElement('script'), s = d.scripts[0];
-            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
-            wf.async = true;
-            s.parentNode.insertBefore(wf, s);
-        })(document);
-    </script>
+<script async="" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript">
+</script>
+<script defer="" src="assets/js/enqueue_divs_for_mathjax.js" type="text/x-mathjax-config">
+</script>
+<!-- Twitter Feed
+<script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js">
+</script>-->
+<!-- Google Fonts -->
+<script defer="" type="text/javascript">
+    WebFontConfig = {
+        google: {
+            families: ['Lora', 'Roboto Slab', 'Alegreya SC','Vollkorn']
+        }
+    };
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJDB29NS7P"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    (function (d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+</script>
 
-        gtag('config', 'G-RJDB29NS7P');
-    </script>
-</footer>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RJDB29NS7P"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RJDB29NS7P');
+</script>
+
 
 </html>

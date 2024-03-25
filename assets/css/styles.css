@@ -27,6 +27,7 @@ a:hover {
     grid-row-gap: min(4vw, 40px);
     grid-template-areas:
             ". header header header header  ."
+            "heroimdiv heroimdiv heroimdiv heroimdiv heroimdiv heroimdiv"
             ". mainer mainer mainer mainer ."
             ". footer footer footer footer .";
     justify-items: center;
@@ -168,6 +169,7 @@ a:hover {
 
 .mainer {
     grid-area: mainer;
+    height: fit-content;
 }
 
 .mainer .home-header {
@@ -491,13 +493,13 @@ a:hover {
 }
 
 .footer {
-    position: fixed;
+    /*position: fixed;*/
     min-height: 25px;
     bottom: 0;
     margin-bottom: 0;
     background-color: white;
     font-size: 1.6vh;
-    position: sticky;
+    /*position: sticky;*/
 }
 
 .footer #copyright {
@@ -747,16 +749,25 @@ a:hover {
 
 
 /* Hero Image */
+.hero-image-div {
+    grid-area: heroimdiv;
+}
+
 .hero-image {
     background: url('https://www.csa.iisc.ac.in/cfe-walmart/assets/images/iisc_main_building.jpg') no-repeat center center/cover;
-    width: 110vw;
+    width: 97vw;
     position: relative; /* If you need to position elements inside absolutely */
-    height: 100vh;
+    height: 90vh;
     margin-top: -50px;
-    margin-left: -50px;
+    overflow-y: auto;
 }
 
 /* Text inside the Hero Image */
+.hero-text h1, .hero-text h2 {
+     /* for better readability */
+    padding: 1em;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -766,12 +777,7 @@ a:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.05);
     font-family: "Vollkorn", "Times New Roman", serif;
-    font-size: 42px;
+    font-size: min(10vw, 48px);;
     padding: 0;
     margin: 0 auto;
-}
-
-.hero-text h1, .hero-text h2 {
-     /* for better readability */
-    padding: 1em;
 }
