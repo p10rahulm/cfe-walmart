@@ -68,6 +68,7 @@ function createPersonHtml(inputData, fileName, fileNumber) {
     }
 
 
+
     return `
             <div class="person-card" id="${fileNumber}_${fileName}">
                 <div class="card-image-holder">
@@ -81,13 +82,13 @@ function createPersonHtml(inputData, fileName, fileNumber) {
                             ${inputData.name} 
                         </a>
                     </div>
-                    <div class="card-person">
+                    <div class="card-person-designation">
                         <a class="card-person-href" href="${inputData.person_link}" target="_blank">
                             ${inputData.person_designation} 
                         </a>
                     </div>
                     
-                    <div class="card-description">
+                    <div class="card-description" id="card_description_${fileNumber}">
                         ${detailsHtml}
                     </div>
                 </div>
@@ -107,8 +108,10 @@ function loadPeopleList(inputList, startIndex) {
         fetchPeopleContent(filePath)
             .then(content => parsePeopleContent(content))
             .then(inputData => {
-                const newsHtml = createPersonHtml(inputData, fileName, fileNumber);
-                document.getElementById('pi-container').innerHTML += newsHtml;
+                const personHtml = createPersonHtml(inputData, fileName, fileNumber);
+                const div_to_set_seemore =  document.getElementById('card_description_${fileNumber}')
+                setAbstractsforDiv(div_to_set_seemore);
+                document.getElementById('pi-container').innerHTML += personHtml;
             });
     }
 }
@@ -130,3 +133,18 @@ function loadMorePeople() {
     });
 }
 
+function setAbstractsforDiv(abstractdiv) {
+    const abstractDone = abstractdiv.parentElement.getElementsByClassName("pi-container").length;
+    if (isOverflown(abstractdiv) && !abstractDone) {
+        //create a see less token
+        const newdiv = document.createElement("div");
+        newdiv.innerHTML = "...See More<i class=\"arrow down\"></i>";
+        newdiv.className = "card-description-seemore"
+        newdiv.setAttribute("onClick", "seeMoreAbstract(this.parentElement.getElementsByClassName('card-description-short')[0])");
+        abstractdiv.parentElement.appendChild(newdiv);
+    }
+}
+
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
