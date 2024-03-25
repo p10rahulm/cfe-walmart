@@ -1,0 +1,729 @@
+body {
+    font-family: "Open Sans", Georgia, Cambria, Times, "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    /*background-color: rgba(153, 218, 255, 0.05);*/
+    /*font-display: swap;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: minmax(65px, auto) minmax(100px, auto) 65px [footer-end];
+
+    /*grid-template-columns: minmax(2vw,1fr) repeat(4, 1fr) minmax(2vw,1fr);*/
+    grid-template-columns: 2vw repeat(4, 1fr) 2vw;
+    grid-row-gap: min(4vw, 40px);
+    grid-template-areas:
+            ". header header header header  ."
+            ". mainer mainer mainer mainer ."
+            ". footer footer footer footer .";
+    justify-items: center;
+    overflow: auto;
+}
+
+.container-element {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /*background-color: #f7f7f7;*/
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eceefb;
+    box-shadow: 5px 10px 18px #f0eef9;
+}
+
+.header .header-elem {
+    padding: min(1.5vw, 10px) 0;
+}
+
+.header #HeaderLogo {
+    padding: 10px 10px 0 5px;
+    flex-basis: 60px;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    text-align: center;
+}
+
+.header #headerLogoImage {
+    height: 60px;
+}
+
+.header #HeaderTitle {
+    /*text-align: center;*/
+    vertical-align: center;
+    padding-left: 10px;
+
+    font-family: "Lora", Georgia, Times, "Times New Roman", serif;
+
+    font-size: min(7vw, 2em);
+    font-weight: bold;
+
+    line-height: 1;
+
+    flex-basis: 325px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: #98093b;
+}
+
+
+.header #headerSubheading {
+    color: #005999;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.header #navbar {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+@media screen and (max-width: 775px) {
+    .header #HeaderLogo {
+        opacity: 56%;
+    }
+
+    .header #HeaderTitle {
+        text-align: center;
+    }
+
+    .header #navbar {
+        justify-content: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+    }
+
+    .person-card {
+        text-align: center;
+    }
+    .paper-image-holder{
+        flex-basis: 100% !important;
+        margin-bottom: 10px;
+    }
+}
+
+.header #navbar .navbar_button {
+    padding: 10px min(2vw, 10px);
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    font-size: max(1em, 12px);
+    color: #2c9268;
+    font-weight: bold;
+}
+
+.header #navbar .navbar_button:hover {
+    text-decoration: underline;
+}
+
+.header #navbar .navbar_button a {
+    font-size: max(1em, 12px);
+}
+
+.header #navbar .navbar-active {
+    box-shadow: 0 8px 6px -4px #c39fff;
+}
+
+.mainer {
+    grid-area: mainer;
+}
+
+.mainer .home-header {
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    /*color: rgba(0, 67, 204, 0.85);*/
+    color: rgba(167, 0, 0, 0.85);
+    font-size: max(16px, 1.75em);
+    font-weight: bold;
+    padding: 5px 10px 10px 18px;
+}
+
+.mainer .home-header2 {
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    color: rgba(0, 67, 204, 0.85);
+    font-size: max(16px, 1.25em);
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+.mainer .section-heading {
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    font-size: max(16px, 1.75em);
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 26, 250, 0.12);
+    font-weight: bold;
+    color: #006633;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.mainer .section-subheading {
+    font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    font-size: max(14px, 1.5em);
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(100, 130, 250, 0.12);
+    font-weight: bold;
+    color: #283a31;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+.mainer .home-textpara {
+    color: rgb(90, 91, 106);
+    font-size: max(12px, 1em);
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.mainer .home-textpara a {
+    color: #33aaff;
+}
+
+
+.mainer #news-content ul {
+    font-weight: normal;
+}
+
+.mainer #news-content li {
+    padding: 10px 5px;
+}
+
+
+.mainer #papers-container-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainer #sponsor-thanks {
+    margin-top: 3px;
+    padding-bottom: 24px;
+    font-size: 15px;
+    text-align: center;
+    /*font-family: 'Lora';*/
+    font-family: "Lora", Georgia, Times, "Times New Roman", serif;
+    /*color: rgba(120, 5, 5, 0.85);*/
+    /*color: rgb(0 89 153)*/
+    color: rgb(0 33 56)
+}
+
+
+.mainer #papers-container .home-header {
+    margin: 20px 0 10px 0;
+}
+
+.mainer #papers-container .paper-card {
+    box-shadow: 5px 10px 18px #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.mainer #papers-container .paper-card:hover {
+    /*transition: transform .75s;*/
+    transition: transform .75s;
+    /*transform: translateY(-10px);*/
+    transform: translateY(-5px);
+}
+
+.mainer #papers-container .paper-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainer #papers-container .paper-card .paper-image-holder {
+    flex-basis: 42px;
+    height: 42px;
+    line-height: 42px;
+    align-items: flex-end;
+    flex-grow: 0;
+    text-align: center;
+    margin-right: 15px;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+.mainer #papers-container .paper-card .paper-image-conference {
+    /*background-color: #00bd43;*/
+    /*background-color: #ff8e02;*/
+    background-color: #ffc402;
+    /*background-color: #0aa500;*/
+    color: whitesmoke;
+}
+
+.mainer #papers-container .paper-card .paper-image-journal {
+    /*background-color: #5f1b9f;*/
+    /*background-color: #5e02b5;*/
+    background-color: #02b594;
+    color: whitesmoke;
+}
+
+.mainer #papers-container .paper-card .speaker-image {
+    height: 120px;
+    width: 120px;
+    margin: 15px 15px 0 0;
+    border-radius: 10%;
+}
+
+.mainer #papers-container .paper-card .paper-main-holder {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /*float: left;*/
+}
+
+.mainer #papers-container .paper-card .paper-details-holder {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    /*float: left;*/
+}
+
+.mainer #papers-container .paper-fullpage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainer #papers-container .paper-fullpage .speaker-image-holder {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    /*float: left;*/
+}
+
+.mainer #papers-container .paper-fullpage .speaker-image {
+    height: 120px;
+    width: 120px;
+    margin: 15px 15px 0 0;
+    border-radius: 50%;
+}
+
+.mainer #papers-container .paper-fullpage .paper-main-holder {
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /*float: left;*/
+}
+
+.mainer #papers-container .paper-fullpage .paper-details-holder {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    /*float: left;*/
+}
+
+
+.mainer #papers-container .paper-card .paper-title {
+    font-weight: bold;
+    /*color: #005999;*/
+    /*color: #545454;*/
+    color: #931616;
+    line-height: 1.6;
+}
+
+.mainer #papers-container .paper-card .paper-title:hover {
+    text-decoration: underline;
+}
+
+.mainer #papers-container .paper-card .paper-authors {
+    font-weight: bold;
+    /*color: #f77e7e;*/
+    /*color: #244270;*/
+    color: #0056b1;
+    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid rgba(0, 26, 250, 0.12);
+}
+
+.mainer #papers-container .paper-card .author-link-href {
+    text-decoration-color: #f77e7e;
+}
+
+.mainer #papers-container .paper-card .paper-release-date {
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    padding: 0.5em 0.5em 0 0;
+    line-height: 1.6;
+    /*font-style: italic;*/
+    /*color: #4eca91;*/
+    /*color: #402d4f;*/
+    color: #05528b;
+}
+
+.mainer #papers-container .paper-card .paper-time:hover {
+    text-decoration: underline;
+}
+
+.mainer #papers-container .paper-card .paper-publication-details {
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    /*color: #365d7999;*/
+    color: #0d7541;
+    line-height: 1.6;
+    padding-left: 0.5em;
+}
+
+.mainer #papers-container .paper-card .paper-notes {
+    color: #a70101a8;
+    /*color: #4c3d9e9e;*/
+}
+
+
+.mainer #papers-container .paper-card .paper-abstract-short {
+    color: #5f5f5f;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid rgba(0, 26, 250, 0.12);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 1.75em;
+}
+
+.mainer #papers-container .paper-card .paper-abstract {
+    /*color:#697285;*/
+    color: #5f5f5f;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid rgba(0, 26, 250, 0.12);
+}
+
+.mainer #papers-container .paper-card .paper-abstract-seeless {
+    text-align: right;
+    /*font-weight: bold;*/
+    font-size: x-small;
+    color: #c1c1c1;
+}
+
+.mainer #papers-container .paper-card .paper-abstract-seemore {
+    text-align: right;
+    /*font-weight: bold;*/
+    font-size: x-small;
+    color: #c1c1c1;
+}
+
+
+.mainer #Publications .publication-title {
+    font-weight: bold;
+}
+
+.mainer #Publications .publication-title a {
+    color: #005999;
+}
+
+.mainer #Publications .publication-authors {
+    color: #f77e7e;
+    font-weight: bold;
+}
+
+.mainer #Publications .publication-authors a {
+    /*color: #ff8888;*/
+    color: #f77e7e;
+}
+
+.mainer #Publications .publication-location {
+    font-style: italic;
+}
+
+.footer {
+    grid-area: footer;
+    border-top: 1px solid #eceefb;
+    box-shadow: 5px -10px 18px #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: self-end;
+    padding: 10px 0;
+    margin-top: 25px;
+}
+
+.footer {
+    position: fixed;
+    min-height: 25px;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: white;
+    font-size: 1.6vh;
+    position: sticky;
+}
+
+.footer #copyright {
+    font-family: "Alegreya SC", Georgia, Times, "Times New Roman", serif;
+    color: #005999;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Seminar*/
+#seminarHome {
+    margin: 25px 0;
+}
+
+#seminarHome .paper-title {
+    text-align: center;
+    font-size: max(16px, 2em);
+    font-weight: bold;
+    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
+    color: rgba(158, 29, 29, 0.85);
+    color: #ab3c3cd9;
+}
+
+#seminarHome .paper-authors {
+    text-align: center;
+    font-style: italic;
+    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
+    color: #093598;
+    border-bottom: 1px solid #ececec;
+    padding: 5px 0 10px 0;
+    font-weight: bold;
+}
+
+#seminarHome .paper-dateloc {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border-bottom: 1px solid #ececec;*/
+}
+
+#seminarHome .paper-dateloc {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border-bottom: 1px solid #ececec;*/
+}
+
+#seminarHome .paper-dateloc-child {
+    padding: 5px 0;
+    /*color: #006544;*/
+    color: #00631e;
+    font-family: Lora, Georgia, Cambria, Times, "Times New Roman", serif;
+}
+
+#seminarHome .paper-abstract {
+    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+    padding: 15px 0;
+    text-align: justify;
+    line-height: 1.6;
+
+}
+
+
+#seminarHome .paper-notes {
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #ececec;
+    font-weight: 500;
+    font-size: max(11px, 0.9em);
+    color: #a2a2a2;
+    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+#seminarHome .paper-paper {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: max(11px, 0.9em);
+    font-style: italic;
+    color: #a2a2a2;
+    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+#seminarHome .paper-recording {
+    padding-top: 5px;
+    font-weight: 500;
+    font-size: max(11px, 0.9em);
+    font-style: italic;
+    color: #a2a2a2;
+    font-family: "Open Sans", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.mainer .flexHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    row-gap: 10px;
+    column-gap: 50px;
+    margin-top: 15px;
+}
+
+
+.mainer .person-card {
+    padding: 10px 20px;
+    box-shadow: 5px 10px 18px #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    flex-basis: 330px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+
+.mainer .person-card:hover {
+    /*transition: transform .75s;*/
+    transition: transform .75s;
+    /*transform: translateY(-10px);*/
+    transform: translateY(-5px);
+}
+
+
+.mainer .person-card .person-image-holder {
+    flex-basis: 135px;
+    flex-grow: 0;
+    text-align: center;
+    /*float: left;*/
+}
+
+.mainer .person-card .person-image {
+    height: 120px;
+    width: 120px;
+    margin: 15px auto;
+    border-radius: 10%;
+}
+
+.mainer .person-card .speaker-main-holder {
+    flex-basis: 225px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /*float: left;*/
+}
+
+.mainer .person-card .speaker-details-holder {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    /*float: left;*/
+}
+
+
+.mainer .person-card .person-main-details {
+    font-weight: bold;
+    /*color: #f77e7e;*/
+    color: #873307;
+    padding: 0 0 0.5em 0;
+    margin: 5px 0;
+    width: 300px;
+    /*text-align: center;*/
+    /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+}
+
+.mainer .person-card .person-link-href {
+    /*text-decoration-color: #f77e7e;*/
+    text-decoration-color: #873307;
+    font-size: max(14px, 1.25em);
+}
+
+.mainer .person-card .person-current-role {
+    font-weight: bolder;
+    color: #2b0f49;
+    padding: 0.5em 0 0 0;
+    margin: 10px auto 0;
+    /*text-align: center;*/
+    font-size: max(12px, 1em);
+    /*font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;*/
+    /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+}
+
+.mainer .person-card .person-current-affiliation {
+    font-weight: bold;
+    color: #402d4f;
+    padding: 0 0 0.5em 0;
+    margin: 0 auto 10px;
+    /*text-align: center;*/
+    font-size: max(12px, 1em);
+    /*font-family: "Lora", Georgia, Cambria, Times, "Times New Roman", Serif;*/
+    /*border-bottom: 1px solid rgba(0, 26, 250, 0.12);*/
+}
+
+#load-more {
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    height: 25px;
+    width: 125px;
+    text-align: center;
+    font-size: 16px;
+    color: #5195de;
+    border: 2px solid #a7a7a8;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+}
+
+#load-more:hover {
+    background-color: rgba(207, 216, 224, 0.25); /* Blue background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* Slightly larger shadow on hover */
+}
+
+#load-more:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Focus outline */
+}
+
+.load-more-invisible {
+    display: none;
+}
+
+.twitter-timeline-link {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.twitter-timeline-frame {
+    max-height: 500px;
+    height: 70vh;
+    overflow-y: auto;
+}
