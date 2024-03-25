@@ -134,6 +134,7 @@ function loadMorePeople() {
 }
 
 function setAbstractsforDiv(abstractdiv) {
+    console.log(abstractdiv.tagName)
     const abstractDone = abstractdiv.parentElement.getElementsByClassName("pi-container").length;
     if (isOverflown(abstractdiv) && !abstractDone) {
         //create a see less token
