@@ -727,3 +727,26 @@ a:hover {
     height: 70vh;
     overflow-y: auto;
 }
+
+
+/* Hero Image */
+.hero-image {
+    background: url('assets/images/iisc_main_building.jpg') no-repeat center center/cover;
+    width: 100%;
+    position: block;
+}
+
+/* Text inside the Hero Image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1, .hero-text h2 {
+    background-color: rgba(0, 0, 0, 0.5); /* for better readability */
+    padding: 1em;
+}
