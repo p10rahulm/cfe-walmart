@@ -22,8 +22,8 @@ if errorlevel 1 (
     echo Changes successfully committed and pushed.
 )
 
-# Now attempt to directly update website through SSH
-# Ensure local computer's ssh credentials are added to remote machine's ~/.ssh/authorized_keys
+REM Now attempt to directly update website through SSH
+REM Ensure local computer's ssh credentials are added to remote machine's ~/.ssh/authorized_keys
 ssh -t msrseminar@csacloud.iisc.ac.in -p 3232 "./syncwalmart.sh"
 echo "Please check that the website https://www.csa.iisc.ac.in/cfe-walmart/ is updated"
 # exit
