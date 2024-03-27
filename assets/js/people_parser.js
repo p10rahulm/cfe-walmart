@@ -65,6 +65,16 @@ function createPersonHtml(inputData, fileName, fileNumber) {
 
     }
 
+    if (inputData.person_role=== "professor"){
+        designationHTML = ``;
+    } else {
+        designationHTML = `<div class="card-person-designation">
+                                <a class="card-person-href" href="${inputData.person_link}" target="_blank">
+                                    ${inputData.person_designation} 
+                                </a>
+                            </div>
+                          `;
+    }
 
 
     return `
@@ -80,12 +90,7 @@ function createPersonHtml(inputData, fileName, fileNumber) {
                             ${inputData.name} 
                         </a>
                     </div>
-                    <div class="card-person-designation">
-                        <a class="card-person-href" href="${inputData.person_link}" target="_blank">
-                            ${inputData.person_designation} 
-                        </a>
-                    </div>
-                    
+                    ${designationHTML}
                     <div class="card-description" id="card_description_${fileNumber}">
                         ${detailsHtml}
                     </div>
