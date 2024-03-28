@@ -2,12 +2,20 @@
 REM This file can be run using `sync.bat "commit message"` on Windows.
 REM Ensure on Windows that you have permissions for execution.
 
+
+
 REM Check if a commit message is provided
 if "%~1"=="" (
     set commit_message=updated content  REM Default commit message
 ) else (
     set commit_message=%~1
 )
+
+
+# Run some python scripts to ensure the files lists are updated.
+python python_scripts/create_file_lists.py
+
+
 
 REM Versioning
 git add -A
