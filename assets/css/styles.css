@@ -812,11 +812,18 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.05);
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+    background-color: rgba(0, 0, 0, 0.25);
     font-family: "Vollkorn", "Times New Roman", serif;
-    font-size: min(10vw, 48px);;
+    font-size: min(10vw, 48px);
     padding: 0;
     margin: 0 auto;
+}
+
+.hero-sub-heading {
+    /*color: #d74754;*/
+    color: #ffbc33;
+    font-size: min(7vw, 36px);
 }
 
 #events-container {
