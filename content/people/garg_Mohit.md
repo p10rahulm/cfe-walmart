@@ -1,5 +1,5 @@
 +++
-name="Mohit Garg"
+name = "Mohit Garg"
 person_role="Postdoctoral Fellow"
 person_designation="Postdoctoral Fellow, IISc, Bangalore"
 person_link=""

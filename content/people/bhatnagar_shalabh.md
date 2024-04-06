@@ -1,5 +1,5 @@
 +++
-name="Shalabh Bhatnagar"
+name = "Shalabh Bhatnagar"
 person_role = "professor"
 person_designation="Professor, IISc, Bangalore"
 person_link="https://www.csa.iisc.ac.in/~shalabh/"

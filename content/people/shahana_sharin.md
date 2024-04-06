@@ -1,5 +1,5 @@
 +++
-name="Sharin Shahana K C"
+name = "Sharin Shahana K C"
 person_role="Predoctoral Fellow"
 person_designation="Predoctoral Fellow, IISc, Bangalore"
 person_link=""

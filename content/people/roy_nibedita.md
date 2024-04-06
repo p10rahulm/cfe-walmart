@@ -1,5 +1,5 @@
 +++
-name="Nibedita Roy"
+name = "Nibedita Roy"
 person_role="PhD Fellow"
 person_designation="PhD Fellow, IISc, Bangalore"
 person_link=""

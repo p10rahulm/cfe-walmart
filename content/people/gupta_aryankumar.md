@@ -1,5 +1,5 @@
 +++
-name="Aryan Kumar Gupta"
+name = "Aryan Kumar Gupta"
 person_role="Predoctoral  Fellow"
 person_designation="Predoctoral  Fellow, IISc, Bangalore"
 person_link=""

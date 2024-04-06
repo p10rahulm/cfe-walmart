@@ -1,5 +1,5 @@
 +++
-name="Satyanand Rammohan"
+name = "Satyanand Rammohan"
 person_role="Predoctoral Fellow"
 person_designation="Predoctoral Fellow, IISc, Bangalore"
 person_link=""

@@ -1,5 +1,5 @@
 +++
-name="Atasi Panda"
+name = "Atasi Panda"
 person_role="PhD Fellow"
 person_designation="PhD Fellow, IISc, Bangalore"
 person_link=""

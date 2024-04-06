@@ -1,5 +1,5 @@
 +++
-name="Aditya Subramanian"
+name = "Aditya Subramanian"
 person_role="PhD Fellow"
 person_designation="PhD Fellow, IISc, Bangalore"
 person_link="https://openreview.net/profile?id=~Aditya_Subramanian1"

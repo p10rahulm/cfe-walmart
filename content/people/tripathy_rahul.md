@@ -1,5 +1,5 @@
 +++
-name="Rahul Tripathy"
+name = "Rahul Tripathy"
 person_role="Predoctoral Fellow"
 person_designation="Predoctoral Fellow, IISc, Bangalore"
 person_link=""

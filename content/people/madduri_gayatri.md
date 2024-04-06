@@ -1,5 +1,5 @@
 +++
-name="Gayatri Madduri"
+name = "Gayatri Madduri"
 person_role="Predoctoral Fellow"
 person_designation="Predoctoral Fellow, IISc, Bangalore"
 person_link=""

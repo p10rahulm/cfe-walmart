@@ -1,5 +1,5 @@
 +++
-name="Manisha Padala"
+name = "Manisha Padala"
 person_role="Postdoctoral Fellow"
 person_designation="Postdoctoral Fellow, IISc, Bangalore"
 person_link="https://sites.google.com/view/manishapadala/"

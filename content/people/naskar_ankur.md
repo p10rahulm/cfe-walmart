@@ -1,5 +1,5 @@
 +++
-name="Ankur Naskar"
+name = "Ankur Naskar"
 person_role="PhD Fellow"
 person_designation="PhD Fellow, IISc, Bangalore"
 person_link=""

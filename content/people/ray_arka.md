@@ -1,7 +1,7 @@
 
 
 +++
-name="Arka Ray"
+name = "Arka Ray"
 person_role="PhD Fellow"
 person_designation="PhD Fellow, IISc, Bangalore"
 person_link="https://arkaray.github.io/"
