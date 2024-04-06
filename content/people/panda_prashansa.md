@@ -1,10 +1,10 @@
 +++
 name = "Prashansa Panda"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/prashansapanda.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/prashansapanda.jpg"
+notes = ""
 +++
 
 

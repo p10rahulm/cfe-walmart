@@ -1,10 +1,10 @@
 +++
 name = "Gugan Thoppe"
 person_role = "professor"
-person_designation="Assistant Professor, IISc, Bangalore"
-person_link="https://www.csa.iisc.ac.in/people/gugan-thoppe/"
-person_photofile="assets/images/people_images/guganthoppe.jpg"
-notes=""
+person_designation = "Assistant Professor, IISc, Bangalore"
+person_link = "https://www.csa.iisc.ac.in/people/gugan-thoppe/"
+person_photofile = "assets/images/people_images/guganthoppe.jpg"
+notes = ""
 +++
 
 Gugan Thoppe is an Assistant Professor in the Computer Science and Automation department at the Indian Institute of

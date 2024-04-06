@@ -1,10 +1,10 @@
 +++
 name = "Rahul Madhavan"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/rahulmadhavan.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/rahulmadhavan.jpg"
+notes = ""
 +++
 
 Rahul Madhavan is a PhD candidate at the Indian Institute of Science Bangalore. His academic journey includes an MBA from the Indian Institute of Management Ahmedabad and a B.tech from the Indian Institute of Technology Madras, highlighted by numerous accolades. An active member of the ML community, he reviews for prestigious conferences and contributes to open-source projects. He has been recognized with a Samsung Scholarship for his academic excellence in AI and has contributed to research on causality in language models at Google Research and IBM Research as a student researcher and PhD intern, respectively.

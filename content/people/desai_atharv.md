@@ -1,10 +1,10 @@
 +++
 name = "Atharv Desai"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/atharvdesai.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/atharvdesai.jpg"
+notes = ""
 +++
 
 Atharv Desai is a Master’s student at the at the Department of Computer Science and Automation in IISc Bengaluru. He is a distinguished computer science professional with a rich educational background from NIT Goa, complemented by a robust GPA of 9.12. His academic journey is marked by excellence, as demonstrated by his 92% in PCM in Class 12 and a stellar 96% in the ICSE class 10 board exams. His professional experience includes impactful internships at Cyanodoc and C-DOT where he honed skills in Angular2, Android, Scapy, and Git, and further developed a mobile app incorporating medical diagnoses using Flutter on Android Studio. He has worked on projects involving Computer Vision, Deep Learning and Machine Learning at institutions like BITS Goa and National Institute of Oceanography. He has also bagged a national scholarship in tabla.

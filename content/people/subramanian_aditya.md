@@ -1,10 +1,10 @@
 +++
 name = "Aditya Subramanian"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link="https://openreview.net/profile?id=~Aditya_Subramanian1"
-person_photofile="assets/images/people_images/adityasubramanian.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = "https://openreview.net/profile?id=~Aditya_Subramanian1"
+person_photofile = "assets/images/people_images/adityasubramanian.jpg"
+notes = ""
 +++
 
 Aditya Subramanian is a fourth year PhD student advised by Prof. Arindam Khan in the Department of Computer Science and Automation, IISc Bangalore. 

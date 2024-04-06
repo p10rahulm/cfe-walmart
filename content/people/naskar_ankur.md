@@ -1,10 +1,10 @@
 +++
 name = "Ankur Naskar"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/ankurnaskar.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/ankurnaskar.jpg"
+notes = ""
 +++
 
 Ankur Naskar is a graduate student at the Department of Computer Science and Automation (CSA), Indian Institute of Science (IISc) Bangalore. For his undergraduate studies, he was enrolled in the 5-year BS-MS dual degree program at the Indian Institute of Science Education and Research (IISER) Kolkata. He graduated from IISER Kolkata in 2019 with a mathematics major and a physics minor. Afterward, he joined the CSA department at IISc Bangalore in the M.Tech (Research) program. During this period, he was working in the area of Graph theory under Prof. Sunil Chandran. He finished his M.Tech(Research) in 2021. Since then, he has been enrolled as a Ph.D. student with Dr. Gugan Thoppe as his advisor. 

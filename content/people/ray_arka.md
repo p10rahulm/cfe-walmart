@@ -2,11 +2,11 @@
 
 +++
 name = "Arka Ray"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link="https://arkaray.github.io/"
-person_photofile="assets/images/people_images/arkaray.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = "https://arkaray.github.io/"
+person_photofile = "assets/images/people_images/arkaray.jpg"
+notes = ""
 +++
 
  Arka Ray is currently a PhD student in the Department of Computer Science and Automation in IISc, Bengaluru, under Anand Louis. He also finished his master's from IISc. Before that, he did his B. Tech from the University of Calcutta. 

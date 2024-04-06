@@ -1,11 +1,11 @@
 +++
 
 name = "Soumyajit Guin"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/soumyajitguin"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/soumyajitguin"
+notes = ""
 +++
 
 

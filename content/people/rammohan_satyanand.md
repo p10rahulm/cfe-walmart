@@ -1,10 +1,10 @@
 +++
 name = "Satyanand Rammohan"
-person_role="Predoctoral Fellow"
-person_designation="Predoctoral Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/satyanandrammohan.jpg"
-notes=""
+person_role = "Predoctoral Fellow"
+person_designation = "Predoctoral Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/satyanandrammohan.jpg"
+notes = ""
 +++
 
 

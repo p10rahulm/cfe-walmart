@@ -1,10 +1,10 @@
 +++
 name = "Atasi Panda"
-person_role="PhD Fellow"
-person_designation="PhD Fellow, IISc, Bangalore"
-person_link=""
-person_photofile="assets/images/people_images/atasipanda.jpg"
-notes=""
+person_role = "PhD Fellow"
+person_designation = "PhD Fellow, IISc, Bangalore"
+person_link = ""
+person_photofile = "assets/images/people_images/atasipanda.jpg"
+notes = ""
 +++
 
 Atasi is a PhD candidate in the Department of Computer Science and Automation at the Indian Institute of Science (IISc), Bengaluru, under Prof. Anand Louis. Before this, she worked as a Software Developer at Uber, San Francisco, after completing her master’s in computer science at the University of Wisconsin, Madison.

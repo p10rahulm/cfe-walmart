@@ -1,10 +1,10 @@
 +++
 name = "Manisha Padala"
-person_role="Postdoctoral Fellow"
-person_designation="Postdoctoral Fellow, IISc, Bangalore"
-person_link="https://sites.google.com/view/manishapadala/"
-person_photofile="assets/images/people_images/manishapadala.jpg"
-notes=""
+person_role = "Postdoctoral Fellow"
+person_designation = "Postdoctoral Fellow, IISc, Bangalore"
+person_link = "https://sites.google.com/view/manishapadala/"
+person_photofile = "assets/images/people_images/manishapadala.jpg"
+notes = ""
 +++
 
 Manisha Padala is a post-doctoral student at the Department of Computer Science and Automation in IISc Bengaluru. She finished her PhD from International Institute of Information Technology, Hyderabad, under the supervision of Dr Sujit Gujar. She completed her BTech from IIT Jodhpur in 2017. 
