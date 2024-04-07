@@ -112,12 +112,47 @@ function loadPeopleList(inputList, startIndex) {
             .then(content => parsePeopleContent(content))
             .then(inputData => {
                 const personHtml = createPersonHtml(inputData, fileName, fileNumber);
-                document.getElementById('pi-container').innerHTML += personHtml;
+                // document.getElementById('pi-container').innerHTML += personHtml;
+                insertContentInOrder(personHtml, fileNumber);
                 const div_to_set_seemore =  document.getElementById('card_description_'+fileNumber.toString())
                 setAbstractsforDiv(div_to_set_seemore);
             });
     }
 }
+
+
+function insertContentInOrder(elementInnerHtml, fileNumber, containerID = 'person-container') {
+    const elements_container = document.getElementById(containerID);
+    let inserted = false;
+    // Convert fileNumber to a number for comparison
+    const order = parseInt(fileNumber, 10);
+
+    // Create div for this node.
+    const elementHTMLNode = document.createElement('div');
+    elementHTMLNode.id = fileNumber+containerID+'item_in_order'
+    elementHTMLNode.class = containerID+'item_in_order'
+    elementHTMLNode.innerHTML = elementInnerHtml;
+
+
+    // Find the right place to insert the new content
+    const children = elements_container.children;
+    for (let i = 0; i < children.length; i++) {
+        const childOrder = parseInt(children[i].id.split('_')[0], 10);
+        console.log("childOrder=",childOrder)
+        console.log("order=",order)
+        if (order < childOrder) {
+            elements_container.insertBefore(elementHTMLNode, children[i]);
+            inserted = true;
+            break;
+        }
+    }
+
+    // If not inserted yet, append at the end
+    if (!inserted) {
+        elements_container.appendChild(elementHTMLNode);
+    }
+}
+
 
 function updatePeopleContent() {
     fetchPeopleList().then(inputList => {
