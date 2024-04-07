@@ -11,25 +11,22 @@ def write_files_to_files_list(directory = 'content/news/', output_file_path = 'c
                 file_paths.append(file_path)
 
     # Sort the file paths by the filename
-    sorted_file_paths = sorted(file_paths, key=lambda x: x.split('/')[-1])
+    sorted_file_paths = sorted(file_paths, key=lambda x: x.split('/')[-1], reverse=True)
 
     # Categorize by Entry Type
-    news_list = {}
-    news_num = 1
+    item_list = {}
+    item_num = 1
 
 
     for file_path in sorted_file_paths:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-            news_list[file_path] = news_num
-            news_num+=1
-
+            item_list[file_path] = item_num
+            item_num+=1
     output_lines = []
     for file_path in sorted_file_paths:
-        output_lines.append(str(news_list[file_path]) + " | " + file_path)
+        output_lines.append(str(item_list[file_path]) + " | " + file_path)
 
-    # reverse output lines
-    output_lines= output_lines[::-1]
     with open(output_file_path, 'w') as output_file:
      for line in output_lines:
         output_file.write(line + '\n')

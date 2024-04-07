@@ -117,10 +117,45 @@ function loadNewsList(newsList, startIndex) {
             .then(content => parseNewsContent(content))
             .then(newsData => {
                 const newsHtml = createNewsHtml(newsData, fileName, fileNumber);
-                document.getElementById('news-container').innerHTML += newsHtml;
+                // document.getElementById('news-container').innerHTML += newsHtml;
+                insertNewsContentInOrder(newsHtml, fileNumber);
             });
     }
 }
+
+
+function insertNewsContentInOrder(newsHtml, fileNumber) {
+    const newsContainer = document.getElementById('news-container');
+    let inserted = false;
+    // Convert fileNumber to a number for comparison
+    const order = parseInt(fileNumber, 10);
+
+    // Create div for this node.
+    const newsHTMLNode = document.createElement('div');
+    newsHTMLNode.id = fileNumber
+    newsHTMLNode.class = "news_order_container"
+    newsHTMLNode.innerHTML = newsHtml;
+
+
+    // Find the right place to insert the new content
+    const children = newsContainer.children;
+    for (let i = 0; i < children.length; i++) {
+        const childOrder = parseInt(children[i].id.split('_')[0], 10);
+        console.log("childOrder=",childOrder)
+        console.log("order=",order)
+        if (order < childOrder) {
+            newsContainer.insertBefore(newsHTMLNode, children[i]);
+            inserted = true;
+            break;
+        }
+    }
+
+    // If not inserted yet, append at the end
+    if (!inserted) {
+        newsContainer.appendChild(newsHTMLNode);
+    }
+}
+
 
 function updateNewsContent() {
     fetchNewsList().then(newsList => {
