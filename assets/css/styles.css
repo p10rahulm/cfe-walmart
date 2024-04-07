@@ -205,6 +205,7 @@ a:hover {
 
 }
 
+
 .mainer .section-heading {
     font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
     font-size: max(16px, 1.75em);
@@ -218,6 +219,21 @@ a:hover {
     margin-top: 25px;
 
 }
+
+.mainer .section-heading2 {
+    font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
+    font-size: max(16px, 1.75em);
+    text-align: center;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(0, 26, 250, 0.12);
+    font-weight: bold;
+    /*color: #006633;*/
+    color: #006633;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100%;
+}
+
 
 .mainer .section-subheading {
     font-family: "Vollkorn", "Lora", Georgia, Cambria, Times, "Times New Roman", serif;
