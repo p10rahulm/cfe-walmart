@@ -103,7 +103,7 @@ function createPersonHtml(inputData, fileName, fileNumber) {
 let currentCardIndex = 0;
 const cardsPerPage = 50;
 
-function loadPeopleList(inputList, startIndex) {
+function loadPeopleList(inputList, startIndex, personType) {
     const endIndex = startIndex + cardsPerPage;
     for (let i = startIndex; i < endIndex && i < inputList.length; i++) {
         const [fileNumber, filePath] = inputList[i].split(' | ');
@@ -111,11 +111,15 @@ function loadPeopleList(inputList, startIndex) {
         fetchPeopleContent(filePath)
             .then(content => parsePeopleContent(content))
             .then(inputData => {
-                const personHtml = createPersonHtml(inputData, fileName, fileNumber);
-                // document.getElementById('pi-container').innerHTML += personHtml;
-                insertContentInOrder(personHtml, fileNumber);
-                const div_to_set_seemore =  document.getElementById('card_description_'+fileNumber.toString())
-                setAbstractsforDiv(div_to_set_seemore);
+                // Check if the person_role matches the personType
+                if (inputData.person_role === personType) {
+                    const personHtml = createPersonHtml(inputData, fileName, fileNumber);
+                    // Now, we insert the HTML only if the person's role matches the specified type
+                    insertContentInOrder(personHtml, fileNumber, personType + '-container');
+                    // After insertion, find the div for setting the "see more" functionality
+                    const div_to_set_seemore = document.getElementById('card_description_' + fileNumber.toString());
+                    setAbstractsforDiv(div_to_set_seemore);
+                }
             });
     }
 }
@@ -152,15 +156,15 @@ function insertContentInOrder(elementInnerHtml, fileNumber, containerID = 'pi-co
 }
 
 
-function updatePeopleContent() {
+function updatePeopleContent(personType) {
     fetchPeopleList().then(inputList => {
-        loadPeopleList(inputList, currentCardIndex);
+        loadPeopleList(inputList, currentCardIndex,personType);
     });
 }
 
-function loadMorePeople() {
+function loadMorePeople(personType) {
     fetchPeopleList().then(inputList => {
-        loadPeopleList(inputList, currentCardIndex);
+        loadPeopleList(inputList, currentCardIndex,personType);
         currentCardIndex += cardsPerPage;
         if (currentCardIndex >= inputList.length) {
             // Hide the Load More button if there are no more papers to load

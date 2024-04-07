@@ -1,6 +1,6 @@
 +++
 name = "Gayatri Madduri"
-person_role = "Predoctoral Fellow"
+person_role = "predoc"
 person_designation = "Predoctoral Fellow, IISc, Bangalore"
 person_link = ""
 person_photofile = "assets/images/people_images/gayatrimadduri.jpg"

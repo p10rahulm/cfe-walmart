@@ -1,6 +1,6 @@
 +++
 name = "Sumit K. Mandal"
-person_role = "professor"
+person_role = "faculty"
 person_designation = "Professor, IISc, Bangalore"
 person_link = "https://www.csa.iisc.ac.in/~skmandal/"
 person_photofile = "assets/images/people_images/sumitKMandal.jpg"

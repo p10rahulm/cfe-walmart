@@ -1,6 +1,6 @@
 +++
 name = "Rahul Saladi"
-person_role = "professor"
+person_role = "faculty"
 person_designation = "Professor, IISc, Bangalore"
 person_link = "https://www.csa.iisc.ac.in/~saladi/"
 person_photofile = "assets/images/people_images/rahulSaladi.jpg"

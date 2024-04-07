@@ -1,6 +1,6 @@
 +++
 name = "Anand Louis"
-person_role = "professor"
+person_role = "faculty"
 person_designation = "Professor, IISc, Bangalore"
 person_link = "https://www.csa.iisc.ac.in/~anandl/"
 person_photofile = "assets/images/people_images/anandLouis.jpg"

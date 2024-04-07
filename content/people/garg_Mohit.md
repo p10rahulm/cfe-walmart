@@ -1,6 +1,6 @@
 +++
 name = "Mohit Garg"
-person_role = "Postdoctoral Fellow"
+person_role = "postdoc"
 person_designation = "Postdoctoral Fellow, IISc, Bangalore"
 person_link = ""
 person_photofile = "assets/images/people_images/mohitgarg.jpg"

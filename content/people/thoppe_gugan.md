@@ -1,6 +1,6 @@
 +++
 name = "Gugan Thoppe"
-person_role = "professor"
+person_role = "faculty"
 person_designation = "Assistant Professor, IISc, Bangalore"
 person_link = "https://www.csa.iisc.ac.in/people/gugan-thoppe/"
 person_photofile = "assets/images/people_images/guganthoppe.jpg"
