@@ -12,7 +12,7 @@ Shalabh Bhatnagar is a Senior Professor in the Department of Computer Science an
 
 
 <br><br><b>Research Interests</b>
-<br><br>
+<br>
 Shalabh’s research interests are in stochastic approximation algorithms, stochastic optimization and reinforcement learning. He also studies various engineering applications of algorithms and tools from these domains. The most significant work of his and his students has been in (a) providing the first and only sets of verifiable conditions for stability and convergence of stochastic recursions with set-valued maps for both synchronous and asynchronous updates and (b) providing the first convergence analyses of stochastic recursions with set-valued maps (under non-ergodic) Markov noise and both single and multi-time scale settings.
 
 <b>Achievements</b>

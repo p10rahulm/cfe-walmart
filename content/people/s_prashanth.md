@@ -11,7 +11,7 @@ notes = ""
 Prashanth S is currently pursuing his Master's degree at the Department of Computer Science and Automation (CSA) at the Indian Institute of Science (IISc) in Bangalore.
 
 <br><br><b>Research Interests</b>
-<br><br>
+<br>
 He is currently involved in cutting-edge research at the FIST Lab. His academic journey consists of a fervent dedication to exploring the intersections of high-performance computer architecture, very Large-scale Integration (VLSI), and machine learning.
 
 

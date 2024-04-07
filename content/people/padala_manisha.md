@@ -11,7 +11,7 @@ Manisha Padala is a post-doctoral student at the Department of Computer Science 
 
 
 <br><br><b>Research Interests</b>
-<br><br>
+<br>
 She looks at how to build fair AI-based systems. Towards this, she addresses research challenges to ensure fairness in AI-based decision-making. The fairness here could be individual or group fairness. Her approach is to make models as simple as possible-- easy to understand and provide theoretical and empirical guarantees. 
 
 

@@ -11,7 +11,7 @@ notes = ""
 Naman is currently a second-year Ph.D. student at the CSA department of IISc. Earlier, he completed his undergraduate studies in computer science from IIIT-Delhi. 
 
 <br><br><b>Research Interests</b>
-<br><br>
+<br>
 He is currently primarily interested in reinforcement learning and stochastic approximation.
 
 

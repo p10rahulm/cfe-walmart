@@ -12,7 +12,7 @@ notes = ""
  Arka Ray is currently a PhD student in the Department of Computer Science and Automation in IISc, Bengaluru, under Anand Louis. He also finished his master's from IISc. Before that, he did his B. Tech from the University of Calcutta. 
 
 <br><br><b>Research Interests</b>
-<br><br>
+<br>
 He is broadly interested in Theoretical Computer Science. His current work focuses on Approximation Algorithms. He is especially interested in learning more about LP/SDP Hierarchies. He also has worked on inapproximability results for various packing and covering problems.
 
 
