@@ -1,6 +1,6 @@
 +++
 name = "Aditya Subramanian"
-person_role = "phd"
+person_role = "grad"
 person_designation = "PhD Fellow, IISc, Bangalore"
 person_link = "https://openreview.net/profile?id=~Aditya_Subramanian1"
 person_photofile = "assets/images/people_images/adityasubramanian.jpg"

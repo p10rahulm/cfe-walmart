@@ -2,7 +2,7 @@
 
 +++
 name = "Arka Ray"
-person_role = "phd"
+person_role = "grad"
 person_designation = "PhD Fellow, IISc, Bangalore"
 person_link = "https://arkaray.github.io/"
 person_photofile = "assets/images/people_images/arkaray.jpg"

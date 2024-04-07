@@ -1,6 +1,6 @@
 +++
 name = "Atasi Panda"
-person_role = "phd"
+person_role = "grad"
 person_designation = "PhD Fellow, IISc, Bangalore"
 person_link = ""
 person_photofile = "assets/images/people_images/atasipanda.jpg"
