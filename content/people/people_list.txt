@@ -22,7 +22,6 @@
 22 | content/people/s_prashanth.md
 23 | content/people/saladi_rahul.md
 24 | content/people/shahana_sharin.md
-25 | content/people/srivastava_himanshu.md
-26 | content/people/subramanian_aditya.md
-27 | content/people/thoppe_gugan.md
-28 | content/people/tripathy_rahul.md
+25 | content/people/subramanian_aditya.md
+26 | content/people/thoppe_gugan.md
+27 | content/people/tripathy_rahul.md
