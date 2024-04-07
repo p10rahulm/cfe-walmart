@@ -121,25 +121,23 @@ function loadPeopleList(inputList, startIndex) {
 }
 
 
-function insertContentInOrder(elementInnerHtml, fileNumber, containerID = 'person-container') {
+function insertContentInOrder(elementInnerHtml, fileNumber, containerID = 'pi-container') {
     const elements_container = document.getElementById(containerID);
     let inserted = false;
     // Convert fileNumber to a number for comparison
     const order = parseInt(fileNumber, 10);
 
     // Create div for this node.
-    const elementHTMLNode = document.createElement('div');
-    elementHTMLNode.id = fileNumber+containerID+'item_in_order'
-    elementHTMLNode.class = containerID+'item_in_order'
-    elementHTMLNode.innerHTML = elementInnerHtml;
-
+    const tempHTMLNode = document.createElement('div');
+    tempHTMLNode.innerHTML = elementInnerHtml;
+    var elementHTMLNode = tempHTMLNode.children[0];
 
     // Find the right place to insert the new content
     const children = elements_container.children;
     for (let i = 0; i < children.length; i++) {
         const childOrder = parseInt(children[i].id.split('_')[0], 10);
-        console.log("childOrder=",childOrder)
-        console.log("order=",order)
+        // console.log("childOrder=",childOrder)
+        // console.log("order=",order)
         if (order < childOrder) {
             elements_container.insertBefore(elementHTMLNode, children[i]);
             inserted = true;
