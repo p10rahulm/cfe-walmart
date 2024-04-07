@@ -101,7 +101,7 @@ function createPersonHtml(inputData, fileName, fileNumber) {
 
 
 let currentCardIndex = 0;
-const cardsPerPage = 20;
+const cardsPerPage = 50;
 
 function loadPeopleList(inputList, startIndex) {
     const endIndex = startIndex + cardsPerPage;
