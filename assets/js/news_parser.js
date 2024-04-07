@@ -132,7 +132,7 @@ function insertNewsContentInOrder(newsHtml, fileNumber) {
 
     // Create div for this node.
     const newsHTMLNode = document.createElement('div');
-    newsHTMLNode.id = fileNumber
+    newsHTMLNode.id = fileNumber+"news_item"
     newsHTMLNode.class = "news_order_container"
     newsHTMLNode.innerHTML = newsHtml;
 
