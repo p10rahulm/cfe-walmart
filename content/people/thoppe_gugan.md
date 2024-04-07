@@ -12,7 +12,7 @@ Science since 2019. He is also an Associate Researcher at the Robert Bosch Centr
 2016 from the Tata Institute of Fundamental Research (TIFR), Mumbai. Following this, he completed postdoctoral research
 at two places: Technion Institute of Technology, Israel (2015-17) and Duke University, USA (2017-19).
 
-<b>Research Interests>/b>
+<b>Research Interests</b>
 <br><br>
 His research interests include reinforcement learning, online learning, stochastic approximation, and random topology.
 
