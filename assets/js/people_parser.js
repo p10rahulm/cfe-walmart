@@ -65,7 +65,7 @@ function createPersonHtml(inputData, fileName, fileNumber) {
 
     }
 
-    if (inputData.person_role=== "professor"){
+    if (inputData.person_role=== "faculty"){
         designationHTML = ``;
     } else {
         designationHTML = `<div class="card-person-designation">
