@@ -827,6 +827,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 81%;
+    max-width: 1200px;
     /*color: white;*/
     color: #ffbc33;
     /*background-color: rgba(0, 0, 0, 0.05);*/
