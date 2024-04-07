@@ -162,6 +162,12 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 840px) {
+    .person-card {
+        max-width: 100%!important;
+    }
+}
+
 .header #navbar .navbar_button {
     padding: 10px min(2vw, 10px);
     font-family: "Roboto Slab", Georgia, Times, "Times New Roman", serif;
@@ -633,10 +639,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     min-height: 150px;
-    max-width: 100%;
+    /*max-width: 100%;*/
     min-width: 0;
     overflow: hidden;
     border-radius: 20px;
+    max-width: calc(50% - 75px);
 }
 
 
