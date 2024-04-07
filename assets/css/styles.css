@@ -1097,6 +1097,7 @@ a:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    width: 175px;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */

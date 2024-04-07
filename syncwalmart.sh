@@ -6,7 +6,7 @@ git pull origin main
 cp index.html /var/www/cfe-walmart/index.html
 cp faculty.html /var/www/cfe-walmart/faculty.html
 cp postdocs.html /var/www/cfe-walmart/postdocs.html
-cp phds.html /var/www/cfe-walmart/phds.html
+cp graduate_students.html /var/www/cfe-walmart/graduate_students.html
 cp predocs.html /var/www/cfe-walmart/predocs.html
 cp events.html /var/www/cfe-walmart/events.html
 cp news.html /var/www/cfe-walmart/news.html
