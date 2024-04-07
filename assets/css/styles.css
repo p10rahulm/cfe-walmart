@@ -811,7 +811,8 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    /*color: white;*/
+    color: #ffbc33;
     /*background-color: rgba(0, 0, 0, 0.05);*/
     background-color: rgba(0, 0, 0, 0.25);
     font-family: "Vollkorn", "Times New Roman", serif;
@@ -822,7 +823,8 @@ a:hover {
 
 .hero-sub-heading {
     /*color: #d74754;*/
-    color: #ffbc33;
+    /*color: #ffbc33;*/
+    color: white;
     font-size: min(7vw, 36px);
 }
 
