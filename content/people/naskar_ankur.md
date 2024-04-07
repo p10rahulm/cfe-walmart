@@ -9,7 +9,7 @@ notes = ""
 
 Ankur Naskar is a graduate student at the Department of Computer Science and Automation (CSA), Indian Institute of Science (IISc) Bangalore. For his undergraduate studies, he was enrolled in the 5-year BS-MS dual degree program at the Indian Institute of Science Education and Research (IISER) Kolkata. He graduated from IISER Kolkata in 2019 with a mathematics major and a physics minor. Afterward, he joined the CSA department at IISc Bangalore in the M.Tech (Research) program. During this period, he was working in the area of Graph theory under Prof. Sunil Chandran. He finished his M.Tech(Research) in 2021. Since then, he has been enrolled as a Ph.D. student with Dr. Gugan Thoppe as his advisor. 
 
-<b>Research Interests</b>
+<br><br><b>Research Interests</b>
 <br><br>
 I am broadly interested in the areas of stochastic approximation theory, reinforcement learning, and dynamical systems.
 

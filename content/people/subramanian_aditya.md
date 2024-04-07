@@ -9,7 +9,7 @@ notes = ""
 
 Aditya Subramanian is a fourth year PhD student advised by Prof. Arindam Khan in the Department of Computer Science and Automation, IISc Bangalore. 
 
-<b>Research Interests</b>
+<br><br><b>Research Interests</b>
 <br><br>
 His research interests lie in finding approximation algorithms for combinatorial optimization problems, and currently he is taking a closer look at problems in geometric optimization.
 

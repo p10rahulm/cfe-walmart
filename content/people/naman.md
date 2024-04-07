@@ -1,5 +1,5 @@
 +++
-name = "Naman"
+name = "Naman Saxena"
 person_role = "PhD Fellow"
 person_designation = "PhD Fellow, IISc, Bangalore"
 person_link = ""
@@ -10,7 +10,7 @@ notes = ""
 
 Naman is currently a second-year Ph.D. student at the CSA department of IISc. Earlier, he completed his undergraduate studies in computer science from IIIT-Delhi. 
 
-<b>Research Interests</b>
+<br><br><b>Research Interests</b>
 <br><br>
 He is currently primarily interested in reinforcement learning and stochastic approximation.
 

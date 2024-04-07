@@ -9,7 +9,7 @@ notes = ""
 
 Atasi is a PhD candidate in the Department of Computer Science and Automation at the Indian Institute of Science (IISc), Bengaluru, under Prof. Anand Louis. Before this, she worked as a Software Developer at Uber, San Francisco, after completing her master’s in computer science at the University of Wisconsin, Madison.
 
-<b>Research Interests</b>
+<br><br><b>Research Interests</b>
 <br><br>
 Her current research work broadly focuses on fairness in algorithms.
 
