@@ -1,7 +1,7 @@
 +++
 name = "Prashanth S"
 person_role = "grad"
-person_designation = "PhD Fellow, IISc, Bangalore"
+person_designation = "MTech Research Fellow"
 person_link = ""
 person_photofile = "assets/images/people_images/prashanths.jpg"
 notes = ""

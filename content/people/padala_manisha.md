@@ -1,7 +1,7 @@
 +++
 name = "Manisha Padala"
 person_role = "postdoc"
-person_designation = "Postdoctoral Fellow, IISc, Bangalore"
+person_designation = "Postdoctoral Fellow"
 person_link = "https://sites.google.com/view/manishapadala/"
 person_photofile = "assets/images/people_images/manishapadala.jpg"
 notes = ""
