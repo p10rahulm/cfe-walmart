@@ -255,9 +255,10 @@ a:hover {
 }
 
 .mainer .home-textpara {
+    line-height: 1.6;
+    font-family: "Open Sans", "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
     color: rgb(90, 91, 106);
     font-size: max(12px, 1em);
-    font-weight: bold;
     padding: 10px;
     text-align: justify;
     text-justify: inter-word;
