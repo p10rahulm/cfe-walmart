@@ -7,12 +7,21 @@ person_photofile = "assets/images/people_images/arindamKhan.jpg"
 notes = ""
 +++
 
-Dr. Arindam Khan is an Assistant Professor in the Department of Computer Science & Automation at the Indian Institute of
-Science (IISc), Bengaluru, India. He earned his PhD from the School of Computer Science at the Georgia Institute of
-Technology, Atlanta, USA, after completing his B.Tech and M.Tech (Dual Degree) in Computer Science and Engineering from
-IIT Kharagpur, India. Dr. Khan's research interests span the design and analysis of algorithms, theoretical computer
-science, approximation algorithms, online algorithms, computational geometry, online learning, and combinatorial
-optimization, with additional focus on fairness, algorithms for big data, and machine learning theory. His academic and
-research journey has included significant time at prestigious institutions worldwide, including TU Munich, IDSIA
-Switzerland, Microsoft Research, UC Berkeley, TU Eindhoven, and IBM Research. For more detailed information, you can
-visit his website.
+Arindam Khan is an Assistant Professor at the Department of Computer Science and Automation at the Indian Institution of
+Science, Bengaluru. He obtained a Dual Degree (BTech+MTech) in Computer Science and Engineering from Indian Institute of
+Technology, Kharagpur. He received his PhD in Algorithms, Combinatorics, and Optimization and MS in Mathematics from
+Georgia Institute of Technology, Atlanta, USA. He did his postdocs at TU Munich, Germany, and Swiss AI Lab (IDSIA),
+Lugano, Switzerland.
+
+<br><br><b>Research Interests</b>
+<br>
+
+Arindam is broadly interested in the design and analysis of algorithms and theoretical computer science. His current
+research area includes Approximation Algorithms, Online Algorithms, Computational Geometry, Combinatorial Optimization,
+Fairness, and ML Theory
+
+<br><br><b>Achievements</b>
+<br>
+
+He is a recipient of Prof. Priti Shankar Teaching Award, MFCS'20 Best paper award, Pratiksha Trust Young Investigator
+Award, and Google India Research Award.
