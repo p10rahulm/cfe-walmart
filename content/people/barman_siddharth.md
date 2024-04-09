@@ -14,11 +14,13 @@ the California Institute of Technology (Caltech).
 
 <br><br><b>Research Interests</b>
 <br>
+
 Siddharth’s research addresses problems at the intersection of Computer Science and Microeconomics. His current 
 research focuses on the theory of fair and efficient resource allocation.
 
 <br><br><b>Achievements</b>
 <br>
+
 Siddharth is a recipient of the ACM India Early Career Researcher (ECR) Award, 2023. He has also received a Young 
 Engineer award from Indian National Academy of Engineering (INAE), Associateship from Indian Academy of Sciences 
 (IASc), Ramanujan Fellowship from Science and Engineering Research Board (SERB), and Pratiksha Trust Young 
