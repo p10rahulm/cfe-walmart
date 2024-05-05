@@ -805,7 +805,7 @@ a:hover {
 }
 
 .twitter-timeline-frame {
-    max-height: 500px;
+    max-height: 650px;
     height: 70vh;
     overflow-y: auto;
 }
