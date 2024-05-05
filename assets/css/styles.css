@@ -800,14 +800,14 @@ a:hover {
     text-align: center;
     display: inline-block;
     width: 100%;
-    max-width: 598px;
-    margin: 0 auto;
 }
 
 .twitter-timeline-frame {
     max-height: 650px;
     height: 70vh;
     overflow-y: auto;
+    max-width: 598px;
+    margin: 0 auto;
 }
 
 
