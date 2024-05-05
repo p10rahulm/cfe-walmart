@@ -807,8 +807,7 @@ a:hover {
     height: 70vh;
     overflow-y: auto;
     max-width: 598px;
-    margin: 0 auto;
-    padding-top: 25px;
+    margin: 25px auto;
 }
 
 
