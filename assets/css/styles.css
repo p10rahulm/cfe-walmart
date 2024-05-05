@@ -808,6 +808,7 @@ a:hover {
     overflow-y: auto;
     max-width: 598px;
     margin: 0 auto;
+    padding-top: 25px;
 }
 
 
