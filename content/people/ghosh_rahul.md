@@ -11,5 +11,6 @@ Rahul Ghosh is a Senior Director of Data Science at Walmart Global Tech India, w
 innovations that drive business value at scale. With over 16 years of experience across research, science, engineering,
 and leadership roles, Rahul excels in building high-performance teams and transforming ideas into impactful
 capabilities. His technical expertise spans machine learning, AI, cloud and big data platforms, and distributed systems.
-Rahul has co-authored over 30 peer-reviewed research papers and holds 44 US patents, demonstrating his commitment to
-advancing the field through strategic partnerships and innovative solutions.
+Rahul has co-authored over 30 peer-reviewed research papers and holds 44 US patents. He earned his Ph.D. and M.S. in
+Electrical and Computer Engineering from Duke University, where his research focused on scalable stochastic models for
+cloud services. He also holds a B.E. in Electronics and Telecommunication from Jadavpur University.
