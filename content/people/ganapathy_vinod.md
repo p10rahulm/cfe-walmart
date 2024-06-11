@@ -11,8 +11,8 @@ Vinod Ganapathy the chair of the Department of Computer Science and Automation. 
 faculty member in the Department of Computer Science at Rutgers University from 2007 to 2017. He earned a Ph.D. in
 Computer Science from the University of Wisconsin-Madison in 2007 and a B.Tech. in Computer Science & Engineering from
 IIT Bombay in 2001.
-
-Expertise
+<br><br>
+<b>Expertise</b>
 The primary focus of his research is computer security. At IISc, he directs the Computer Systems Security Laboratory.
 Here they seek to build practical computer systems with sound security guarantees. His research projects have considered
 security issues in a broad spectrum of computer systems, from cloud platforms through Web browsers to mobile devices. He
