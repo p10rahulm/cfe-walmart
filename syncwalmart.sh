@@ -11,5 +11,6 @@ cp predocs.html /var/www/cfe-walmart/predocs.html
 cp events.html /var/www/cfe-walmart/events.html
 cp news.html /var/www/cfe-walmart/news.html
 cp joinus.html /var/www/cfe-walmart/joinus.html
+cp governing_council.html /var/www/cfe-walmart/governing_council.html
 cp -R assets /var/www/cfe-walmart/
 cp -R content /var/www/cfe-walmart/
