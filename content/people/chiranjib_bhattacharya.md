@@ -17,4 +17,5 @@ He joined the Department of CSA, IISc, in 2002 as an Assistant Professor. Prior 
 postdoctoral fellow at UC Berkeley. He holds BE and ME degrees, both in Electrical Engineering, from Jadavpur University
 and the Indian Institute of Science, respectively, and completed his PhD from the Department of Computer Science and
 Automation, Indian Institute of Science. He is also a fellow of Indian Academy of Engineering.
-For more information about his work please see https://www.csa.iisc.ac.in/~chiru/
+For more information about his work please see 
+<a href="https://www.csa.iisc.ac.in/~chiru/" target ="_blank">https://www.csa.iisc.ac.in/~chiru/</a>
