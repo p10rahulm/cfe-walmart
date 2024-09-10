@@ -28,7 +28,8 @@
 28 | content/people/roy_nibedita.md
 29 | content/people/s_prashanth.md
 30 | content/people/saladi_rahul.md
-31 | content/people/shahana_sharin.md
-32 | content/people/subramanian_aditya.md
-33 | content/people/thoppe_gugan.md
-34 | content/people/tripathy_rahul.md
+31 | content/people/sethia_aditi.md
+32 | content/people/shahana_sharin.md
+33 | content/people/subramanian_aditya.md
+34 | content/people/thoppe_gugan.md
+35 | content/people/tripathy_rahul.md

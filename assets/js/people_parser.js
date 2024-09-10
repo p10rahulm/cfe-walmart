@@ -25,12 +25,14 @@ function parsePeopleContent(content) {
     const person_designation = metadata.match(/person_designation = "(.*?)"/)[1];
     const person_link = metadata.match(/person_link = "(.*?)"/)[1];
     const person_photofile = metadata.match(/person_photofile = "(.*?)"/)[1];
+    const is_alumnus_match = metadata.match(/is_alumnus = "(.*?)"/);
+    const is_alumnus = is_alumnus_match ? is_alumnus_match[1] === "true" : false;
     const notes = metadata.match(/notes = "(.*?)"/)[1];
 
 
 
 
-    return {name, person_role, person_designation, person_link, person_photofile, notes, details};
+    return {name, person_role, person_designation, person_link, person_photofile, notes, details, is_alumnus};
 }
 
 
@@ -114,8 +116,10 @@ function loadPeopleList(inputList, startIndex, personType) {
                 // Check if the person_role matches the personType
                 if (inputData.person_role === personType) {
                     const personHtml = createPersonHtml(inputData, fileName, fileNumber);
+                    // Determine the container based on whether the person is an alumnus
+                    const containerSuffix = inputData.is_alumnus ? '-alumni-container' : '-container';
                     // Now, we insert the HTML only if the person's role matches the specified type
-                    insertContentInOrder(personHtml, fileNumber, personType + '-container');
+                    insertContentInOrder(personHtml, fileNumber, personType + containerSuffix);
                     // After insertion, find the div for setting the "see more" functionality
                     const div_to_set_seemore = document.getElementById('card_description_' + fileNumber.toString());
                     setAbstractsforDiv(div_to_set_seemore);
