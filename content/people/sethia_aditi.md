@@ -7,7 +7,7 @@ person_photofile = "assets/images/people_images/aditiSethia.jpg"
 notes = ""
 +++
 
-Aditi is a post-doctoral researcher at the Department of Computer Science and Automation in IISc Bengaluru. She completed her PhD from the Indian Institute of Technology Gandhinagar, under the supervision of Prof. Neeldhara Misra.
+Aditi is a postdoctoral researcher at the Department of Computer Science and Automation in IISc Bengaluru. She completed her PhD from the Indian Institute of Technology Gandhinagar, under the supervision of Prof. Neeldhara Misra.
 
 <br><br><b>Research Interests</b>
 <br>
