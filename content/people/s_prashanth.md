@@ -4,6 +4,7 @@ person_role = "grad"
 person_designation = "MTech Research Fellow"
 person_link = ""
 person_photofile = "assets/images/people_images/prashanths.jpg"
+is_alumnus = "true"
 notes = ""
 +++
 
