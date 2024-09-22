@@ -8,8 +8,8 @@ person_photofile = "assets/images/people_images/nirjharDas.jpg"
 notes = ""
 +++
 
- Nirjhar Das is currently a MTech Research student in the Department of Computer Science and Automation in IISc, 
- Bengaluru, under Prof Siddharth Barman. He completed his BTech from IIT Delhi and worked as a Research Intern 
+ Nirjhar Das is currently a MTech Research student in the Department of Computer Science and Automation at 
+ IISc, Bengaluru, under Prof Siddharth Barman. He completed his BTech from IIT Delhi and worked as a Research Intern 
  for a year at Microsoft Research Bangalore.
 
 <br><br><b>Research Interests</b>
