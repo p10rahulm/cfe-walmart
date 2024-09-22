@@ -1,5 +1,5 @@
 +++
-name = "Parag Dewani"
+name = "Parag Dawani"
 person_role = "grad"
 person_designation = "MTech Research Fellow"
 person_link = "#"
