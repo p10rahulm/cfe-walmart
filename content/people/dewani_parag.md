@@ -14,6 +14,7 @@ startups within the real estate and fintech domains.
 
 <br><br><b>Research Interests</b>
 <br>
-He is broadly interested in Theoretical Computer Science. Currently, he is exploring topics in online learning and computational geometry.
+He is broadly interested in Theoretical Computer Science. Currently, he is exploring topics in online learning and 
+computational geometry.
 
 
