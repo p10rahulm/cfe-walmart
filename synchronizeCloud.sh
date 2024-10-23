@@ -7,6 +7,9 @@
 # Run some python scripts to ensure the files lists are updated.
 python python_scripts/create_file_lists.py
 
+# Pull changes from others
+git pull --set-upstream origin main
+
 # Git changes
 git add .
 git commit -m "content changes"
