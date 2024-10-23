@@ -1,8 +1,7 @@
 # Type the command "cmd < synchronizeCloud.sh" on windows
 # Or the command "./synchronizeCloud.sh" on linux after ensuring chmod +rwx permissions on this file.
 # Preliminary Checks:
-# 1. Ensure "gcloud auth login" is already done
-# 2. Ensure that you are on the IISc CISCO VPN
+# Ensure that you are on the IISc CISCO VPN
 
 # Run some python scripts to ensure the files lists are updated.
 python python_scripts/create_file_lists.py
