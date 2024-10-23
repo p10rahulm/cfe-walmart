@@ -34,5 +34,6 @@
 34 | content/people/sethia_aditi.md
 35 | content/people/shahana_sharin.md
 36 | content/people/subramanian_aditya.md
-37 | content/people/thoppe_gugan.md
-38 | content/people/tripathy_rahul.md
+37 | content/people/test_predoc.md
+38 | content/people/thoppe_gugan.md
+39 | content/people/tripathy_rahul.md
