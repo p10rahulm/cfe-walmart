@@ -1,7 +1,7 @@
 +++
 name = "Suruchi Garg"
 person_role = "gc"
-person_designation = "Sr. Director, Software Engineering, Walmart"
+person_designation = "Group Director, Software Engineering, Walmart"
 person_link = "https://www.linkedin.com/in/suruchi-garg/"
 person_photofile = "assets/images/people_images/suruchiGarg.jpg"
 notes = ""
