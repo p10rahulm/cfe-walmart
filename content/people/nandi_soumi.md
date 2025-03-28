@@ -1,10 +1,10 @@
 +++
 name = "Soumi Nandi"
 person_role = "postdoc"
-person_designation = "Postdoctoral Fellow"
+person_designation = "Former Postdoctoral Fellow"
 person_link = "https://sites.google.com/view/soumi-nandi"
 person_photofile = "assets/images/people_images/soumiNandi.jpg"
-is_alumnus = "false"
+is_alumnus = "true"
 notes = ""
 +++
 

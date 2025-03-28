@@ -1,9 +1,10 @@
 +++
 name = "Mohit Garg"
 person_role = "postdoc"
-person_designation = "Postdoctoral Fellow"
+person_designation = "Former Postdoctoral Fellow"
 person_link = ""
 person_photofile = "assets/images/people_images/mohitgarg.jpg"
+is_alumnus = "true"
 notes = ""
 +++
 
