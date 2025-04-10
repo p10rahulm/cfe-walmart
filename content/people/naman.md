@@ -1,5 +1,5 @@
 +++
-name = "Naman Saxena"
+name = "Naman"
 person_role = "grad"
 person_designation = "PhD Fellow"
 person_link = ""
