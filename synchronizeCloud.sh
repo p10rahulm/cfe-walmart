@@ -4,7 +4,13 @@
 # Ensure that you are on the IISc CISCO VPN
 
 # Run some python scripts to ensure the files lists are updated.
-python python_scripts/create_file_lists.py
+# python python_scripts/create_file_lists.py
+
+if command -v python >/dev/null 2>&1; then
+    python python_scripts/create_file_lists.py
+else
+    python3 python_scripts/create_file_lists.py
+fi
 
 # Pull changes from others
 git pull --set-upstream origin main
