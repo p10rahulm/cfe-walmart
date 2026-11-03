@@ -5,6 +5,7 @@ person_role = "grad"
 person_designation = "PhD Fellow"
 person_link = ""
 person_photofile = "assets/images/people_images/lakshmimandal.jpg"
+is_alumnus = "true"
 notes = ""
 +++
 

@@ -5,6 +5,7 @@ person_role = "grad"
 person_designation = "MTech Research Fellow"
 person_link = "https://nirjhar-das.github.io/"
 person_photofile = "assets/images/people_images/nirjharDas.jpg"
+is_alumnus = "true"
 notes = ""
 +++
 

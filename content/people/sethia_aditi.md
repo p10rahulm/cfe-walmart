@@ -4,6 +4,7 @@ person_role = "postdoc"
 person_designation = "Postdoctoral Fellow"
 person_link = "https://sites.google.com/iitgn.ac.in/aditi-sethia"
 person_photofile = "assets/images/people_images/aditiSethia.jpg"
+is_alumnus = "true"
 notes = ""
 +++
 

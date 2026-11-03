@@ -12,5 +12,3 @@ Kaushik is a M.Tech Research student in department of Computer Science and Autom
 <!-- <br><br><b>Research Interests</b>
 <br>
 Post-Von Neumann architectures, Efficient LLM Inference -->
-
-
