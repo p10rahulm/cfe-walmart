@@ -4,7 +4,7 @@ name = "Yashaswini Mathur"
 person_role = "grad"
 person_designation = "MTech Research Fellow"
 person_link = ""
-person_photofile = "assets/images/people_images/mathurYashaswini.png"
+person_photofile = "assets/images/people_images/yashaswiniMathur.png"
 notes = ""
 +++
 Yashaswini Mathur is an M.Tech. (Research) student in the Department of Computer Science and Automation at the Indian Institute of Science, where she works with Prof. Arindam Khan. She received Bachelor of Science in Electrical Engineering and Computer Science from IISER Bhopal. She is broadly interested in
