@@ -3,7 +3,7 @@
 name = "Manu Bhat"
 person_role = "grad"
 person_designation = "PhD Fellow"
-person_link = "<https://sites.google.com/view/manumbhat/about>"
+person_link = ""
 person_photofile = "assets/images/people_images/manuBhat.jpg"
 notes = ""
 +++
