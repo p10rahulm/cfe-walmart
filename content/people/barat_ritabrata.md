@@ -4,7 +4,7 @@ name = "Ritabrata Barat"
 person_role = "grad"
 person_designation = "PhD Fellow"
 person_link = ""
-person_photofile = "assets/images/people_images/baratRitabrata.jpeg"
+person_photofile = "assets/images/people_images/ritabrataBarat.jpeg"
 notes = ""
 +++
 

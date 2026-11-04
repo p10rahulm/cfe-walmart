@@ -105,8 +105,8 @@ function createPersonHtml(inputData, fileName, fileNumber) {
 let currentCardIndex = 0;
 const cardsPerPage = 50;
 
-function loadPeopleList(inputList, startIndex, personType) {
-    const endIndex = startIndex + cardsPerPage;
+function loadPeopleList(inputList, startIndex, personType, pageSize = cardsPerPage) {
+    const endIndex = startIndex + pageSize;
     for (let i = startIndex; i < endIndex && i < inputList.length; i++) {
         const [fileNumber, filePath] = inputList[i].split(' | ');
         const fileName = filePath.split('/').pop().replace('.md', '');
@@ -162,7 +162,8 @@ function insertContentInOrder(elementInnerHtml, fileNumber, containerID = 'pi-co
 
 function updatePeopleContent(personType) {
     fetchPeopleList().then(inputList => {
-        loadPeopleList(inputList, currentCardIndex,personType);
+        // People pages have no Load More button, so load the complete directory.
+        loadPeopleList(inputList, 0, personType, inputList.length);
     });
 }
 

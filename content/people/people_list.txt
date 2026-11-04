@@ -43,7 +43,7 @@
 43 | content/people/tripathy_rahul.md
 44 | content/people/bhat_manu.md
 45 | content/people/ghosh_mrinal.md
-46 | content/people/girik_khullar.md
+46 | content/people/khullar_girik.md
 47 | content/people/ks_sreeramji.md
 48 | content/people/mathur_yashaswini.md
 49 | content/people/paul_rameesh.md
