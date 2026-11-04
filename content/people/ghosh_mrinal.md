@@ -3,7 +3,7 @@ name = "Mrinalkantii Ghosh"
 person_role = "postdoc"
 person_designation = "Postdoctoral Fellow"
 person_link = ""
-person_photofile = "assets/images/people_images/ghoshMrinal.jpg"
+person_photofile = "assets/images/people_images/mrinalGhosh.png"
 notes = ""
 +++
 

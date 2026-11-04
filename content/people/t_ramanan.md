@@ -4,7 +4,7 @@ name = "Ramanan T"
 person_role = "grad"
 person_designation = "MTech Research Fellow"
 person_link = ""
-person_photofile = "assets/images/people_images/ramananT.jpg"
+person_photofile = "assets/images/people_images/ramananT.jpeg"
 notes = ""
 +++
 I am an M.Tech. Research student in the Department of Computer Science and Automation at IISc Bengaluru, working under the supervision of Prof. Shalabh Bhatnagar. I completed my B.Tech. in Mathematics and Computing at IISc Bengaluru. My research interests include stochastic optimization, stochastic approximation, and theoretical aspects of machine learning.
